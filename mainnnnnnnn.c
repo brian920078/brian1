@@ -6,7 +6,7 @@ int main()
 {
   int array[100], n, c, d, swap;
  
-  printf("Enter number of elements\n");
+  printf("Enter number of elements\n"); /*print questin*/
   scanf("%d", &n);
  
   printf("Enter %d integers\n", n);
