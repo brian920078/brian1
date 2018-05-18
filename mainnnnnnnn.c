@@ -9,7 +9,7 @@ int main()
   printf("Enter number of elements\n"); /*print questin*/
   scanf("%d", &n);
  
-  printf("Enter %d integers\n", n);
+  printf("Enter %d integers\n", n); /*輸入要比較的數字*/
  
   for (c = 0; c < n; c++)
     scanf("%d", &array[c]);
@@ -27,6 +27,7 @@ int main()
     }
   }
  
+  printf("Sorted list in ascending order:\n");
   printf("Sorted list in ascending order:\n");
  
   for ( c = 0 ; c < n ; c++ )
